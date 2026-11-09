@@ -1,0 +1,22 @@
+[
+  {
+    "id": "simpledev-crm",
+    "name": "SimpleDev CRM",
+    "description": "SimpleDEV commercial CRM · Next.js + Supabase (Postgres, Auth, Storage) · Vercel. Test branch: version_test; test URL unconfirmed. DNS provider and vault unconfirmed.",
+    "color": "#7357ee",
+    "pinned": false,
+    "updatedAt": "2026-11-09T13:00:00.000Z",
+    "liveUrl": "https://comercial-simpledev.vercel.app",
+    "testUrl": "",
+    "links": [
+      {"env":"shared","category":"Repository","provider":"GitHub","label":"Source repository","url":"https://github.com/brennosimpledev/comercial_simpledev"},
+      {"env":"live","category":"Database","provider":"Supabase","label":"comercialsimpledev · Postgres","url":"https://supabase.com/dashboard/project/gmboahlpsivpmvgtxbcc"},
+      {"env":"live","category":"Other","provider":"Supabase","label":"Team authentication","url":"https://supabase.com/dashboard/project/gmboahlpsivpmvgtxbcc/auth/users"},
+      {"env":"live","category":"Storage","provider":"Supabase","label":"CRM file storage","url":"https://supabase.com/dashboard/project/gmboahlpsivpmvgtxbcc/storage/buckets"},
+      {"env":"shared","category":"Hosting","provider":"Vercel","label":"Vercel dashboard · use CRM owner account","url":"https://vercel.com/dashboard"},
+      {"env":"shared","category":"Documentation","provider":"GitHub","label":"Project context and infrastructure","url":"https://github.com/brennosimpledev/comercial_simpledev/blob/main/docs/CONTEXTO-PROJETO.md"},
+      {"env":"test","category":"Repository","provider":"GitHub","label":"Test branch · version_test","url":"https://github.com/brennosimpledev/comercial_simpledev/tree/version_test"},
+      {"env":"live","category":"Hosting","provider":"GitHub","label":"Vercel deployment history","url":"https://github.com/brennosimpledev/comercial_simpledev/deployments"}
+    ]
+  }
+]

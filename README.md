@@ -41,3 +41,7 @@ Open an issue describing the problem or improvement, then submit a focused pull 
 ## License
 
 [MIT](LICENSE). Free to use, modify, self-host, and distribute.
+
+## SimpleDev CRM project
+
+Import [examples/simpledev-crm.json](examples/simpledev-crm.json) using the **Import** button to add the known CRM infrastructure links. The record includes its live app, GitHub repository, Supabase database/auth/storage dashboards, Vercel dashboard, deployment history, documentation, and `version_test` branch. The test URL, DNS provider, and password vault are unconfirmed and remain unset. No credentials are included. Importing does not provision infrastructure or grant access to provider dashboards.
