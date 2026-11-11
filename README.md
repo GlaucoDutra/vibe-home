@@ -8,6 +8,9 @@ A free, MIT-licensed home for all your projects and their infrastructure. Inspir
 - Separate live and test application URLs on every card.
 - Infrastructure resources scoped to Live, Test, or Shared.
 - Provider and category selectors for GitHub, domains, DNS, Supabase, AWS, Azure, Google Cloud, Vercel, Cloudflare, Bitwarden, monitoring, analytics, email, storage, and custom resources.
+- Edit any project from its card, or from its resources panel.
+- Upload a project logo (resized to 256 px and stored in the browser), with a fallback initial.
+- Provider logos for GitHub, GitLab, Cloudflare, AWS, Azure, and other supported services, shown in the provider picker, project cards, and resource lists.
 - Create, edit, and delete projects and resources.
 - Local browser persistence and portable JSON backup import/export. Imports merge by project ID and ask before overwriting matches.
 - Responsive layout, native dialogs, labeled controls, and HTTP/HTTPS link validation.
@@ -24,7 +27,7 @@ Open http://localhost:5173. Run `npm test` for import validation and URL safety 
 
 ## Deploy
 
-Serve `index.html`, `style.css`, `app.js`, and `model.js` on any static host. Vercel: choose Other, no build command, output directory `.`. Cloudflare Pages: no framework, no build command, output directory `.`. GitHub Pages can serve the repository root. No backend or environment variables are required.
+Serve `index.html`, `style.css`, `app.js`, `model.js`, and `icons.js` on any static host. Vercel: choose Other, no build command, output directory `.`. Cloudflare Pages: no framework, no build command, output directory `.`. GitHub Pages can serve the repository root. No backend or environment variables are required.
 
 ## Data and access
 
